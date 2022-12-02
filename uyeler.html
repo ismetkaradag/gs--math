@@ -15,15 +15,15 @@
 
 <body>
     <div class="container">
-        <div class="col-md-10 offset-md-1 mt-1">
+        <div class="col-md-12 mt-1">
 
             <header class="py-3 border-bottom" style="background-color:#430001;position: relative;">
+                <img src="static/image/indir.png" style="position:absolute ; left: 0;top: 0; width: 100%;height: 100%;"
+                    alt="bg">
                 <div class="m-3 p-1 d-flex flex-wrap justify-content-center">
                     <a href="/" style="color:white ;"
                         class="d-flex align-items-center mb-3 mb-lg-0 me-lg-auto text-decoration-none">
-                        <span class="fs-4">Galatasaray Üniversitesi · Matematik Bölümü<br><span
-                                style="font-size: 12px ;"> Çırağan Cad. No:36 34357 Ortaköy / İstanbul · Tel: +90 212
-                                227 4480 · Fax: +90 212 260 5345</span></span>
+                        <span class="fs-4">Galatasaray Üniversitesi · Matematik Bölümü</span>
                     </a>
                 </div>
                 <div style="position:absolute;right: 2%;top: 5%;">
@@ -39,17 +39,17 @@
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
                         aria-label="Toggle navigation">
-                        <img src="static/image/sigma.png" style="width:6%; border:1px solid #ff9148;border-radius: 5%;"
-                            class="float-end p-1" alt="sigma">
+                        <img src="static/image/i.png" style="width:20%; border:1px solid #ff9148;border-radius: 5%;"
+                            class="float-start p-1" alt="sigma">
 
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNavDropdown">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="h.html">Anasayfa</a>
+                                <a class="nav-link active" aria-current="page" href="home.html">Anasayfa</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Üyeler</a>
+                                <a class="nav-link" href="uyeler.html">Üyeler</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Araştırma</a>
@@ -72,33 +72,62 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Veri Bilimi Seminerleri</a>
                             </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                    aria-expanded="false">
-
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Dahili Bilgiler</a></li>
-                                    <li><a class="dropdown-item" href="#">Profesyonel Eğitim Hizmetleri</a></li>
-                                </ul>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Dahili Bilgiler</a>
                             </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Profesyonel Eğitim Hizmetleri</a>
+                            </li>
+
                         </ul>
                     </div>
                 </div>
             </nav>
             <div class="m-0" style="background-color: #ff9148;height:1px;width: 100%;"></div>
             <div class="row mt-2">
-                
-            </div>
-            <div class=" row d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top p-2"
-                style="background-color:#430001 ;color: white;">
-                <div class="col-md-4 offset-md-4">
-                    <p style="text-align: center;">© <span id="year"></span> GSÜ Math. Tüm hakları saklıdır.</p>
+                <div class="col-md-6">
+                    <div class="card mb-3 text-bg-light" style="max-height: 240px;width: 100%;height: 240px;border-right: 1px solid black;border-top: 1px solid black;border-bottom: 1px solid black;">
+                        <div class="row g-0">
+                            <div class="col-4">
+                                <img src="static/image/cakti.jpeg" class="img-fluid rounded-start" style="border-radius:50%;display: block;margin: auto;margin-left: 0;height: 238px;" alt="begüm">
+                            </div>
+                            <div class="col-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Begüm Gülşah Çaktı</h5>
+                                    <hr>
+                                    <p class="card-text text-muted"><b>Tel.:</b> +90 212 227 4480 - 471</p>
+                                    <p class="card-text text-muted"><b>E-mail:</b> begumcakti [at] gmail.com</p>
+                                    <p class="card-text text-muted"><b>Web:</b> http://math.gsu.edu.tr/cakti/</p>
+                                    <p class="card-text text-muted"><b>Master.:</b> Koç Üniversitesi</p>
+                                    <p class="card-text text-muted"><b>İlgi alanları:</b> Sayılar Teorisi</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card mb-3 text-bg-light" style="max-height: 240px;width: 100%;height: 240px;border-right: 1px solid black;border-top: 1px solid black;border-bottom: 1px solid black;">
+                        <div class="row g-0">
+                            <div class="col-4">
+                                <img src="static/image/sgurer.jpeg" class="img-fluid rounded-start" style="border-radius:50%;display: block;margin: auto;margin-left: 0;height: 238px;" alt="begüm">
+                            </div>
+                            <div class="col-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Serap Gürer</h5>
+                                    <hr>
+                                    <p class="card-text text-muted"><b>Tel.:</b> +90 212 227 4480 - 471</p>
+                                    <p class="card-text text-muted"><b>E-mail:</b> begumcakti [at] gmail.com</p>
+                                    <p class="card-text text-muted"><b>Web:</b> http://math.gsu.edu.tr/cakti/</p>
+                                    <p class="card-text text-muted"><b>Master.:</b> Koç Üniversitesi</p>
+                                    <p class="card-text text-muted"><b>İlgi alanları:</b> Sayılar Teorisi</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
 
-    </div>
+        </div>
 </body>
 <script>
     var span = document.getElementById('year');
