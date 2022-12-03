@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galatasaray Üniversitesi Matematik Bölümü</title>
+    <link rel="shortcut icon" href="static/image/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="static/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="static/css/style.css">
+    <script src="static/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="col-md-12 mt-1">
+
+            <header class="py-3 border-bottom" style="background-color:#430001;position: relative;">
+                <img src="static/image/indir.png" style="position:absolute ; left: 0;top: 0; width: 100%;height: 100%;"
+                    alt="bg">
+                <div class="m-3 p-1 d-flex flex-wrap justify-content-center">
+                    <a href="" style="color:white ;"
+                        class="d-flex align-items-center mb-3 mb-lg-0 me-lg-auto text-decoration-none">
+                        <span class="fs-4">Galatasaray Üniversitesi · Matematik Bölümü</span>
+                    </a>
+                </div>
+                <div style="position:absolute;right: 2%;top: 5%;">
+                    <span style="border: 0.4px solid #ff9148;color: white;font-size: 10px;" class="btn p-1">FR</span>
+                    <span style="border: 0.4px solid #ff9148;color: white;font-size: 10px;" class="btn p-1">TR</span>
+                    <span style="border: 0.4px solid #ff9148;color: white;font-size: 10px;" class="btn p-1">EN</span>
+                </div>
+
+            </header>
+            <div class="m-0" style="background-color: #ff9148;height:1px;width: 100%;"></div>
+            <nav class="navbar navbar-expand-lg mt-0" style="background-color:#8a1a1a ;">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <img src="static/image/i.png" style="width:20%; border:1px solid #ff9148;border-radius: 5%;"
+                            class="float-start p-1" alt="sigma">
+
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">Anasayfa</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="personel.html">Üyeler</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="faaliyet.html">Araştırma</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="egitim.html">Eğitim</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://www.gsu.edu.tr/">Üniversite</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="http://fbe.gsu.edu.tr/tr/mat-ylisans">Yüksek Lisans</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="mezun-sayfasi.html">Mezunlarımız</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="">Matematik Kulübü</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="veribilimiseminerler.html">Veri Bilimi Seminerleri</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="dahili.html">Dahili Bilgiler</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="profesyonelegitimfaaliyetleri.html">Profesyonel Eğitim Hizmetleri</a>
+                            </li>
+                            
+
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div class="m-0" style="background-color: #ff9148;height:1px;width: 100%;"></div>
+            <div class="row mt-2">
+
+                <h3>Araştırma</h3>
+                <hr class="mb-2">
+                <div class="col-md-8">
+                    <br>
+
+                    <p><a href="seminar.html" class="navlink">• Seminerler</a></p>
+                    <p><a href="toplantilar.html" class="navlink">• Toplantılar</a></p>
+                    <p><a href="secmeyayin.html" class="navlink">• Seçme Yayınlar</a></p>
+                    <p><a href="projeler.html" class="navlink">• Projeler</a></p>
+                    <br>
+                </div>
+                <div class="col-md-4">
+                    <img src="static/image/havariyyun1.jpeg" style="width:100% ;" alt="arastirma">
+                </div>
+
+
+            </div>
+            <div class=" row d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top p-2"
+                style="background-color:#430001 ;color: white;">
+                <div class="col-md-4 offset-md-4">
+                    <p style="text-align: center;">© <span id="year"></span> GSÜ Math. Tüm hakları saklıdır.</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+<script>
+    var span = document.getElementById('year');
+    span.innerHTML = new Date().getFullYear();
+</script>
+
+</html>

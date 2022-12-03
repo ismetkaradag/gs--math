@@ -1,3 +1,12 @@
 .card-body > .card-text {
     font-size: 14px;
 }
+.nav-link{
+    color: #ff9148 !important;
+}
+.fs-4{
+    z-index: 999 !important;
+}
+ol > li {
+    margin-top: 10px !important;
+}
