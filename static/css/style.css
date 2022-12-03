@@ -10,3 +10,6 @@
 ol > li {
     margin-top: 10px !important;
 }
+.card {
+    overflow-y: scroll !important;
+}
