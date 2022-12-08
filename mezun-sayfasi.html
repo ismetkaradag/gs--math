@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galatasaray Üniversitesi Matematik Bölümü</title>
+    <link rel="shortcut icon" href="static/image/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="static/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="static/css/style.css">
+    <script src="static/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="col-md-12 mt-1">
+
+            <header class="py-3 border-bottom" style="background-color:#430001;position: relative;">
+                <img src="static/image/indir.png"
+                    style="position:absolute ; left: 0;top: 0;max-width: 100%;display: block;object-fit: cover;object-position: 100%;height: 100%;overflow-x: hidden;"
+                    alt="bg">
+                <div class="m-3 p-1 d-flex flex-wrap justify-content-center">
+                    <a href="/" style="color:white ;"
+                        class="d-flex align-items-center mb-3 mb-lg-0 me-lg-auto text-decoration-none">
+                        <span class="fs-4">Galatasaray Üniversitesi · Matematik Bölümü</span>
+                    </a>
+                </div>
+                <div style="position:absolute;right: 2%;top: 5%;">
+                    <span style="border: 0.4px solid #ff9148;color: white;font-size: 10px;" class="btn p-1">FR</span>
+                    <span style="border: 0.4px solid #ff9148;color: white;font-size: 10px;" class="btn p-1">TR</span>
+                    <span style="border: 0.4px solid #ff9148;color: white;font-size: 10px;" class="btn p-1">EN</span>
+                </div>
+
+            </header>
+            <div class="m-0" style="background-color: #ff9148;height:1px;width: 100%;"></div>
+            <nav class="navbar navbar-expand-lg mt-0" style="background-color:#8a1a1a ;">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <img src="static/image/i.png" style="width:20%; border:1px solid #ff9148;border-radius: 5%;"
+                            class="float-start p-1" alt="sigma">
+
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">Anasayfa</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="personel.html">Üyeler</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="faaliyet.html">Araştırma</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="egitim.html">Eğitim</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://www.gsu.edu.tr/">Üniversite</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="http://fbe.gsu.edu.tr/tr/mat-ylisans">Yüksek Lisans</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="mezun-sayfasi.html">Mezunlarımız</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="">Matematik Kulübü</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="veribilimiseminerler.html">Veri Bilimi Seminerleri</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="dahili.html">Dahili Bilgiler</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="profesyonelegitimfaaliyetleri.html">Profesyonel Eğitim
+                                    Hizmetleri</a>
+                            </li>
+
+
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div class="m-0" style="background-color: #ff9148;height:1px;width: 100%;"></div>
+            <div class="row mt-2" id="page-1">
+                <h3 class="text-center mt-2">Mezunlarımız</h3>
+                <ul class="nav nav-tabs d-flex justify-content-center"
+                    style="margin-right:15px;margin-left:15px;margin-bottom: 10px;" id="nav-tab">
+                    <li class="nav-item mb-1">
+                        <button class="btn active" style="color:#ff9148;" id="2019" onclick="get(this.id);">2019</button>
+                    </li>
+                    <li class="nav-item mb-1">
+                        <button class="btn" style="color:#ff9148;" id="2018" onclick="get(this.id);">2018</button>
+                    </li>
+                    <li class="nav-item mb-1">
+                        <button class="btn" style="color:#ff9148;" id="2017" onclick="get(this.id);">2017</button>
+                    </li>
+                    <li class="nav-item mb-1">
+                        <button class="btn" style="color:#ff9148;" id="2016" onclick="get(this.id);">2016</button>
+                    </li>
+                    <li class="nav-item mb-1">
+                        <button class="btn" style="color:#ff9148;" id="2015" onclick="get(this.id);">2015</button>
+                    </li>
+                    <li class="nav-item mb-1">
+                        <button class="btn" style="color:#ff9148;" id="2014" onclick="get(this.id);">2014</button>
+                    </li>
+                    <li class="nav-item mb-1">
+                        <button class="btn" style="color:#ff9148;" id="2013" onclick="get('2013');">2013</button>
+                    </li>
+                </ul>
+                <div id="mezun-2019" class="mezun" hidden>
+                    <div class="col-lg-6"> <!-- Eklenecek kısım: başlangıç -->
+                        <div class="card mb-3 text-bg-light"
+                            style="border-right: 1px solid black;max-height:238px;border-top: 1px solid black;border-bottom: 1px solid black;">
+                            <div class="row g-0">
+                                <div class="col-4">
+                                    <img src="static/image/kaya.jpeg" class="img-fluid rounded-start"
+                                        style="border-radius:50%;max-height:238px;;display: block;margin: auto;margin-left: 0;height: 100%;"
+                                        alt="begüm">
+                                </div>
+                                <div class="col-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Oğuzhan Kaya mezun-2019</h5>
+                                        <hr>
+                                        <p class="card-text text-muted"><b>Tel.:</b> +90 212 227 4480 - 471</p>
+                                        <p class="card-text text-muted"><b>E-mail:</b> oguzabel [at] gmail.com</p>
+                                        <p class="card-text text-muted mb-1"><b>Web:</b> http://math.gsu.edu.tr/kaya/
+                                        </p>
+                                        <p class="card-text text-muted mb-1"><b>Ph.D.:</b>Université de Lille 1-Sciences
+                                            et Technologies, Lille, France, 2015</p>
+                                        <p class="card-text text-muted"><b>İlgi alanları:</b> Harmonik analizde
+                                            geometrik metodlar</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- Eklenecek kısım: son -->
+                </div>
+                <div id="mezun-2018" class="mezun" hidden>
+                    <div class="col-lg-6">
+                        <div class="card mb-3 text-bg-light"
+                            style="border-right: 1px solid black;max-height:238px;border-top: 1px solid black;border-bottom: 1px solid black;">
+                            <div class="row g-0">
+                                <div class="col-4">
+                                    <img src="static/image/kaya.jpeg" class="img-fluid rounded-start"
+                                        style="border-radius:50%;max-height:238px;;display: block;margin: auto;margin-left: 0;height: 100%;"
+                                        alt="begüm">
+                                </div>
+                                <div class="col-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Oğuzhan Kaya mezun-2018</h5>
+                                        <hr>
+                                        <p class="card-text text-muted"><b>Tel.:</b> +90 212 227 4480 - 471</p>
+                                        <p class="card-text text-muted"><b>E-mail:</b> oguzabel [at] gmail.com</p>
+                                        <p class="card-text text-muted mb-1"><b>Web:</b> http://math.gsu.edu.tr/kaya/
+                                        </p>
+                                        <p class="card-text text-muted mb-1"><b>Ph.D.:</b>Université de Lille 1-Sciences
+                                            et Technologies, Lille, France, 2015</p>
+                                        <p class="card-text text-muted"><b>İlgi alanları:</b> Harmonik analizde
+                                            geometrik metodlar</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+</body>
+<script>
+    var a = document.getElementById("page-1")
+    a.getElementsByTagName("div")[0].hidden=false;
+</script>
+<script>
+    function get(id){
+        
+        var b = document.getElementById("nav-tab").getElementsByTagName("button")
+        for (let i = 0; i < b.length; i++) {
+            const element = b[i];
+            element.classList.remove("active");
+        }
+        var a = document.getElementsByClassName("mezun");
+        for (let i = 0; i < a.length; i++) {
+            const element = a[i];
+            element.hidden=true;
+            
+        }
+        document.getElementById("mezun-"+id).hidden = false;
+        document.getElementById(id).classList.toggle("active")
+    }
+</script>
+</html>
