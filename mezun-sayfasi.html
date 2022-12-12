@@ -10,7 +10,18 @@
     <link rel="stylesheet" type="text/css" href="static/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="static/css/style.css">
     <script src="static/js/bootstrap.min.js"></script>
-
+    <style>
+        .telefon{
+            height: 200px !important;
+            width: 100% !important;
+        }
+        .telefon img {
+            height: 200px !important;
+        }
+        .mezun {
+            margin: 0%;
+        }
+    </style>
 </head>
 
 <body>
@@ -3426,5 +3437,13 @@
     }
 
 </script>
-
+<script>
+    if(screen.height>screen.width){
+        var s = document.getElementsByClassName("card")
+        for (let i = 0; i < s.length; i++) {
+            const element = s[i];
+            element.classList.add("telefon")
+        }
+    }
+</script>
 </html>

@@ -23,6 +23,13 @@
         .mabl>li {
             margin-top: 10px !important;
         }
+        .telefon{
+            height: 220px !important;
+            width: 100% !important;
+        }
+        .telefon img {
+            height: 220px !important;
+        } 
     </style>
 </head>
 
@@ -529,6 +536,13 @@
 <script>
     var span = document.getElementById('year');
     span.innerHTML = new Date().getFullYear();
+    if(screen.height>screen.width){
+        var s = document.getElementsByClassName("card")
+        for (let i = 0; i < s.length; i++) {
+            const element = s[i];
+            element.classList.add("telefon")
+        }
+    }
 </script>
 
 </html>
