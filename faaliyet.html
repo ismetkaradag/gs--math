@@ -10,7 +10,11 @@
     <link rel="stylesheet" type="text/css" href="static/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="static/css/style.css">
     <script src="static/js/bootstrap.min.js"></script>
-
+    <style>
+        .my-link{
+            text-decoration: underline #ff9148 !important;
+        }
+    </style>
 </head>
 
 <body>
@@ -26,9 +30,9 @@
                     </a>
                 </div>
                 <div style="position:absolute;right: 2%;top: 5%;">
-                    <span style="border: 0.4px solid #ff9148;color: white;font-size: 10px;" class="btn p-1">FR</span>
-                    <span style="border: 0.4px solid #ff9148;color: white;font-size: 10px;" class="btn p-1">TR</span>
-                    <span style="border: 0.4px solid #ff9148;color: white;font-size: 10px;" class="btn p-1">EN</span>
+                    <a href="../index.html"><span style="border: 0.4px solid #ff9148;color: white;font-size: 10px;" class="btn p-1">TR</span></a>
+                    <a href="../fr/index.html"><span style="border: 0.4px solid #ff9148;color: white;font-size: 10px;" class="btn p-1">FR</span></a>
+                    <a href="../en/index.html"><span style="border: 0.4px solid #ff9148;color: white;font-size: 10px;" class="btn p-1">EN</span></a>
                 </div>
 
             </header>
@@ -42,7 +46,7 @@
                             class="float-start p-1" alt="sigma">
 
                     </button>
-                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <div class="collapse navbar-collapse  justify-content-evenly " id="navbarNavDropdown">
                         <ul class="navbar-nav">
                             <li class="nav-item">
                                 <a class="nav-link active" aria-current="page" href="index.html">Anasayfa</a>
@@ -67,10 +71,7 @@
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="">Matematik Kulübü</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="veribilimiseminerler.html">Veri Bilimi Seminerleri</a>
-                            </li>
+                            </li> 
                             <li class="nav-item">
                                 <a class="nav-link" href="dahili.html">Dahili Bilgiler</a>
                             </li>
@@ -89,11 +90,14 @@
                 <hr class="mb-2">
                 <div class="col-md-8">
                     <br>
-                    <div class="row m-2">
-                        <div class="col-md-3 btn"><a href="seminar.html" class="nav-link">• Seminerler</a></div>
-                        <div class="col-md-3 btn"><a href="toplantilar.html" class="nav-link">• Toplantılar</a></div>
-                        <div class="col-md-3 btn"><a href="secmeyayin.html" class="nav-link">• Seçme Yayınlar</a></div>
-                        <div class="col-md-3 btn"><a href="projeler.html" class="nav-link">• Projeler</a></div>
+                    
+                    <div class="row m-2 justify-content-center">
+                        <div class="col-md-3 btn my-link"><a href="seminar.html" class="nav-link">• Seminerler</a></div>
+                        <div class="col-md-3 btn my-link"><a href="veribilimiseminerler.html" class="nav-link">• Veri Bilimi Seminerleri</a></div>
+                        <div class="col-md-3 btn my-link"><a href="toplantilar.html" class="nav-link">• Toplantılar</a></div>
+                        <div class="col-md-3 btn my-link"><a href="secmeyayin.html" class="nav-link">• Seçme Yayınlar</a></div>
+                        <div class="col-md-3 btn my-link"><a href="projeler.html" class="nav-link">• Projeler</a></div>
+                        
                     </div>
                     <br>
                 </div>
