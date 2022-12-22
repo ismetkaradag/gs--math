@@ -14,6 +14,11 @@
         .my-link{
             text-decoration: underline #ff9148 !important;
         }
+        .my-link-body{
+            display:flex;
+            flex-wrap: wrap;
+            justify-content: space-around !important;
+        }
     </style>
 </head>
 
@@ -61,10 +66,10 @@
                                 <a class="nav-link" href="egitim.html">Eğitim</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="https://www.gsu.edu.tr/">Üniversite</a>
+                                <a class="nav-link" target="_blank"  href="https://www.gsu.edu.tr/">Üniversite</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="http://fbe.gsu.edu.tr/tr/mat-ylisans">Yüksek Lisans</a>
+                                <a class="nav-link"  target="_blank" href="http://fbe.gsu.edu.tr/tr/mat-ylisans">Yüksek Lisans</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="mezun-sayfasi.html">Mezunlarımız</a>
@@ -86,24 +91,25 @@
             <div class="row mt-2">
                 <h3 class="m-2">Araştırma</h3>
                 <hr class="mb-2">
-                <div class="col-md-8">
-                    <br>
+                <br>
+                <div class="my-link-body">
                     
-                    <div class="row m-2 justify-content-center">
-                        <div class="col-md-3 btn my-link"><a href="seminar.html" class="nav-link">• Seminerler</a></div>
-                        <div class="col-md-3 btn my-link"><a href="veribilimiseminerler.html" class="nav-link">• Veri Bilimi Seminerleri</a></div>
-                        <div class="col-md-3 btn my-link"><a href="toplantilar.html" class="nav-link">• Toplantılar</a></div>
-                        <div class="col-md-3 btn my-link"><a href="secmeyayin.html" class="nav-link">• Seçme Yayınlar</a></div>
-                        <div class="col-md-3 btn my-link"><a href="projeler.html" class="nav-link">• Projeler</a></div>
-                        
-                    </div>
-                    <br>
+                    <div class="btn my-link"><a href="seminar.html" class="nav-link">• Seminerler</a></div>
+                    <div class="btn my-link"><a href="veribilimiseminerler.html" class="nav-link">• Veri Bilimi Seminerleri</a></div>
+                    <div class="btn my-link"><a href="toplantilar.html" class="nav-link">• Toplantılar</a></div>
+                    <div class="btn my-link"><a href="secmeyayin.html" class="nav-link">• Seçme Yayınlar</a></div>
+                    <div class="btn my-link"><a href="projeler.html" class="nav-link">• Projeler</a></div>
                 </div>
-                <div class="col-md-4">
+                <br>
+
+                
+
+
+            </div>
+            <div class="row mt-4">
+                <div class="col-md-4 offset-md-4">
                     <img src="static/image/havariyyun1.jpeg" style="width:100% ;" alt="arastirma">
                 </div>
-
-
             </div>
             <div class=" row d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top p-2"
                 style="background-color:#430001 ;color: white;">

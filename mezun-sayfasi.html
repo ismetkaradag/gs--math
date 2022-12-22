@@ -35,6 +35,8 @@
         .card img {
             height: 100% !important;
             width: 100% !important;
+            object-fit: cover;
+            object-position: 50% 70%;
             border-bottom-right-radius: 20%;
         }
 
@@ -43,19 +45,24 @@
         }
 
         .telefon {
-            height: 250px !important;
+            height: 260px !important;
             
         }
 
         .telefon img {
             height: 100% !important;
         }
+        .cntr{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
     </style>
 </head>
 
 <body>
     <div class="container">
-        <div class="col-md-12 mt-1">
+        <div class="mt-1">
 
             <header class="py-3 border-bottom" style="background-color:#430001;position: relative;">
                 <img src="static/image/indir.png"
@@ -102,10 +109,10 @@
                                 <a class="nav-link" href="egitim.html">Eğitim</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="https://www.gsu.edu.tr/">Üniversite</a>
+                                <a class="nav-link" target="_blank"  href="https://www.gsu.edu.tr/">Üniversite</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="http://fbe.gsu.edu.tr/tr/mat-ylisans">Yüksek Lisans</a>
+                                <a class="nav-link" target="_blank"  href="http://fbe.gsu.edu.tr/tr/mat-ylisans">Yüksek Lisans</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="mezun-sayfasi.html">Mezunlarımız</a>
@@ -123,13 +130,11 @@
                 </div>
             </nav>
             <div class="m-0" style="background-color: #ff9148;height:1px;width: 100%;"></div>
-            <div class="row mt-2" id="page-1">
-                <h3 class="text-center mt-2">Mezunlarımız</h3>
-                <ul class="nav nav-tabs d-flex justify-content-center"
+            <div class="row mt-2 cntr" id="page-1">
+                <ul class="mt-3 nav nav-tabs d-flex justify-content-center"
                     style="margin-right:15px;margin-left:15px;margin-bottom: 10px;" id="nav-tab">
                     <li class="nav-item mb-1">
-                        <button class="btn active" style="color:#ff9148;" id="all" onclick="get(this.id);">Tüm
-                            Mezunlar</button>
+                        <button class="btn active" style="color:#ff9148;" id="all" onclick="get(this.id);">Tüm Mezunlar</button>
                     </li>
                     <li class="nav-item mb-1">
                         <button class="btn" style="color:#ff9148;" id="2019" onclick="get(this.id);">2019</button>
