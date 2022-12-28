@@ -10,3 +10,17 @@
 ol > li {
     margin-top: 10px !important;
 }
+
+.drpdwn{
+    display: inline-block !important;
+}
+.drpdwn:hover .dropdown-menu{
+    display: block !important;
+}
+.dropdown-menu a{
+    margin: 5px;
+    color: #ff9148 !important;
+}
+.dropdown-menu{
+    background-color: #8a1a1a;
+    }
