@@ -24,3 +24,6 @@ ol > li {
 .dropdown-menu{
     background-color: #8a1a1a;
     }
+.navbar-nav > * > *{
+    font-size: 0.9em;
+}
